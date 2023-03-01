@@ -1,0 +1,133 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0px 25px 0px 25px;
+	min-height: 100vh;
+	background: url(./images/bg-pattern-top.svg) top -70vw left -40vw / 100vw 100vw no-repeat,
+    			url(./images/bg-pattern-bottom.svg) bottom -70vw right -40vw / 100vw 100vw no-repeat, 
+    			hsl(185, 75%, 39%);
+}
+
+main {
+	max-width: 350px;
+	width: 100%;
+	height: 374px;
+	border-radius: 15px;
+	background-color: white;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+	margin: 0px;
+}
+
+.capa_User {
+	width: 100%;
+	height: 140px;
+	border-radius: 15px 15px 0px 0px;
+	background-image: url(./images/bg-pattern-card.svg);
+}
+
+.user_Sec {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 234px;
+}
+
+.profile_Pic {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: -52.5px;
+}
+
+.profile_Pic img {
+	width: 95px;
+	height: 95px;
+	border-radius: 60px;
+	border: 5px solid white;
+}
+
+.about_User {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+.info_User {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.info_User h1 {
+	font-family: inherit;
+	font-weight: 700;
+	color: hsl(229, 23%, 23%);
+	font-size: 18px;
+	margin-right: 10px;
+}
+
+.info_User p {
+	font-family: inherit;
+	font-weight: 400;
+	color: hsl(227, 10%, 46%);
+	font-size: 18px;
+}
+
+.city_User {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.city_User h2 {
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: 400;
+	color: hsl(227, 10%, 46%);
+	font-size: 15px;
+}
+
+hr {
+	height: 1px;
+	margin: 0px;
+	color: hsl(0, 0%, 59%);
+}
+
+.num_User {
+	display: flex;
+	justify-content: space-around;
+	padding: 0px 10px;
+	margin-bottom: 27px;
+}
+
+.num {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.num p {
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: hsl(229, 23%, 23%);
+}
+
+.num h3 {
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	letter-spacing: 1px;
+	color: hsl(229, 23%, 23%);
+}
+
